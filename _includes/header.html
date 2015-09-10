@@ -9,7 +9,8 @@
     {% endcomment %}
     <title>{{ site.name }} - {% if page.title | size > 0 %}{{ page.title }}{% else %}{{ site.description }}{% endif %}</title>
     <meta name="author" content="Thomas Jensen" />
-	{% if page.sedesc %}
+    <link type="application/atom+xml" rel="alternate" href="{{ site.baseurl }}/feed.xml" title="{{ site.name }}" />
+    {% if page.sedesc %}
 	<!-- start page -->
 	<meta name="description" content="{{ site.description }}" />
     <meta name="keywords" content="checkstyle, {{ site.name }}, checkstyle addons, addons, add-ons, code style,

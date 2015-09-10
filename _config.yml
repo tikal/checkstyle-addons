@@ -3,12 +3,19 @@
 name: Checkstyle Addons
 description: Additional Checkstyle Checks
 
-# enable emoticons
+# Author information for the Atom feed
+author:
+  name: Thomas
+  email: checkstyle@thomasjensen.com
+  uri: http://thomasjensen.com/
+
+# enable Atom feed, and emoticons
 gems:
+  - jekyll-feed
   - jemoji
 
-# website address
-url: http://checkstyle-addons.thomasjensen.com/
+# website address (without a trailing slash!)
+url: http://checkstyle-addons.thomasjensen.com
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
